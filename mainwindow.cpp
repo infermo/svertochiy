@@ -82,7 +82,6 @@ void MainWindow::on_encodeButton_clicked() {
         }
         text += " ";
     }
-
     ui->encodedEdit->setText(text.trimmed());
 }
 
@@ -131,4 +130,4 @@ void MainWindow::on_decodeButton_clicked() {
 
     ui->plainLabel->setText(decoded);
 }
-
+//{{0,1},{0,2}}
